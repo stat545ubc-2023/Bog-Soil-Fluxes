@@ -1,3 +1,11 @@
+# Here's my designed shiny app code on evaluating the soil respiration fluxes (CO2 and CH4)
+# in my study sites with different ecosystem types and treatments.
+# Here're the three features:
+# Feature 1: Allow the user to search for their prefer entry (certain vegetation type and treatment) to check by using selectInput () under sidebarPanel().
+# Feature 2: Allow the user to download the data table as.csv, with downloadButton() function.
+# Feature 3: place the 2 plots, a table and a description page in separate tabs by using tabsetPanel().
+
+# App Code
 # Loading required libraries
 library(shiny)
 library(ggplot2)
@@ -15,8 +23,9 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("ecosystem", "Select Ecosystem Type", choices = unique(data$VegetationType)), # Dropdown for ecosystem selection
       selectInput("treatment", "Select Treatment", choices = unique(data$Treatments)), # Dropdown for treatment selection
+      # Feature 1: Allow the user to search for their prefer entry (certain vegetation type and treatment) to check by using selectInput ().
       hr(), # Horizontal line for visual separation
-      downloadButton("downloadData", "Download Data") # Button for downloading data
+      downloadButton("downloadData", "Download Data") # Feature 2: Allow the user to download my table as.csv, with downloadButton() function.
     ),
     mainPanel(
       tabsetPanel(
@@ -24,10 +33,11 @@ ui <- fluidPage(
         tabPanel("FCH4 Time Series", plotOutput("fch4Plot")), # Tab for FCH4 time series plot
         tabPanel("Data Table", DTOutput("dataTable")), # Tab for showing data table
         tabPanel("Description", verbatimTextOutput("descriptionText"))  # Description tab for additional information
-      )
+      ) # Feature 3: place the 2 plots, a table and a description page in seperate tabs by using tabsetPanel().
     )
   )
 )
+
 
 # Define server logic
 server <- function(input, output) {
