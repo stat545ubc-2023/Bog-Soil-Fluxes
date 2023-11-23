@@ -25,3 +25,5 @@ The user can directly access the dataset by clicking the App's _Data Table_ tab.
 `App.R`: the R code for this shiny app
 
 `sample_data.csv`: the dataset used in this app
+
+`rsconnect folder`: contains a .dcf file presenting the specific information of the shinyapps.io online app I created.
