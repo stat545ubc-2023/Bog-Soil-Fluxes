@@ -6,7 +6,8 @@ https://64ken0-hehan-zhang.shinyapps.io/assignment-b3-zoezhh/
 ## Description of the App
 **Overall Description**
 > The Burns Bog Flux Analysis Shiny app offers an interactive experience for users to analyze the effects of ecological treatments on greenhouse gas emissions. It
-> presents time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select specific vegetation types and treatment conditions > with the dropdown menus to check for the corresponding temporal variations of carbon fluxes. The app integrates a data table for an in-depth examination of the raw
+> presents time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select specific vegetation types and treatment conditions
+> with the dropdown menus to check for the corresponding temporal variations of carbon fluxes. The app integrates a data table for an in-depth examination of the raw
 > data points. It ensures scientific transparency by granting access to the complete dataset, encouraging reproducible research and open data practices. Users can
 > also download the dataset directly for offline analysis, supporting further scientific inquiry. You can also find the description tab with further information on
 > vegetation types and treatments.
