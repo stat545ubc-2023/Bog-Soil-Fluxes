@@ -3,9 +3,9 @@
 # Feature 1: Allow the user to search for their preferred entry (specific vegetation type and treatment) to check by using selectInput () under sidebarPanel().
 # By entering your select entry, you can highlight your select study site's flux pattern over the growing season, for a detailed look and compare with other study sites.
 # Feature 2: Allow the user to download the data table as.csv, with downloadButton() function.
-# For open, reproducible science, you have directly access to Zoe's collected data.
+# For open, reproducible science, you have direct access to Zoe's collected data.
 # Feature 3: Place the 2 plots, a data table and a description page in separate tabs by using tabsetPanel().
-# The App page allows you easily access fluxes plots (FCO2 and FCH4), dataset and the description about the App by clicking different tabs on App.
+# The App page allows you to access fluxes plots easily (FCO2 and FCH4), the dataset and the App description by clicking different tabs on the app.
 
 # App Code
 # Loading required libraries
