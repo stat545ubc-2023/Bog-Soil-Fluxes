@@ -1,9 +1,12 @@
 # Here's my designed shiny app code on evaluating the soil respiration fluxes (CO2 and CH4)
 # in my study sites with different ecosystem types and treatments.
 # Here're the three features:
-# Feature 1: Allow the user to search for their prefer entry (certain vegetation type and treatment) to check by using selectInput () under sidebarPanel().
+# Feature 1: Allow the user to search for their preferred entry (specific vegetation type and treatment) to check by using selectInput () under sidebarPanel().
+# By entering your select entry, you can highlight your select study site's flux pattern over the growing season, for a detailed look and compare with other study sites.
 # Feature 2: Allow the user to download the data table as.csv, with downloadButton() function.
-# Feature 3: place the 2 plots, a table and a description page in separate tabs by using tabsetPanel().
+# For open, reproducible science, you have directly access to Zoe's collected data.
+# Feature 3: Place the 2 plots, a data table and a description page in separate tabs by using tabsetPanel().
+# The App page allows you easily access fluxes plots (FCO2 and FCH4), dataset and the description about the App by clicking different tabs on App.
 
 # App Code
 # Loading required libraries
