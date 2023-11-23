@@ -1,5 +1,4 @@
-# Here's my designed shiny app code on evaluating the soil respiration fluxes (CO2 and CH4)
-# in my study sites with different ecosystem types and treatments.
+# Here's my designed shiny app code on evaluating the soil respiration fluxes (CO2 and CH4) in my study sites with different ecosystem types and treatments.
 # Here're the three features:
 # Feature 1: Allow the user to search for their preferred entry (specific vegetation type and treatment) to check by using selectInput () under sidebarPanel().
 # By entering your select entry, you can highlight your select study site's flux pattern over the growing season, for a detailed look and compare with other study sites.
