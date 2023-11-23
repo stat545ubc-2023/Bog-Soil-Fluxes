@@ -2,9 +2,10 @@
 library(shiny)
 library(ggplot2)
 library(DT)
+library(rsconnect)
 
 # Load and prepare dataset
-data <- read.csv("/Users/zoe/desktop/Rplots/Data/sample_data.csv", stringsAsFactors = FALSE)
+data <- read.csv("sample_data.csv", stringsAsFactors = FALSE)
 data$CollectionDate <- as.Date(data$CollectionDate) # Converting CollectionDate to Date type
 
 # Define UI layout
