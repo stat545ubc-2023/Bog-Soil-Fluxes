@@ -14,11 +14,14 @@ https://64ken0-hehan-zhang.shinyapps.io/assignment-b3-zoezhh/
 
 **Main Features**
 
-> Feature 1: Allow the user to search for their preferred entry (specific vegetation type and treatment) by using selectInput () under sidebarPanel().
+> Feature 1: Allow the user to search for their preferred entry (specific vegetation type and treatment) by using selectInput () under sidebarPanel(). (By entering
+>  your select entry, you can highlight your select study site's flux pattern over the growing season for a detailed look and compare it with other study sites)
 > 
-> Feature 2: Allow the user to download the data table as.csv with the downloadButton() function.
+> Feature 2: Allow the user to download the data table as.csv with the downloadButton() function. (For open, reproducible science, you have direct access to Zoe's
+>  collected data)
 > 
-> Feature 3: Place the two plots, a table and a description page in separate tabs using tabsetPanel().
+> Feature 3: Place the two plots, a table and a description page in separate tabs using tabsetPanel(). (The App page allows you to access fluxes plots easily (FCO2
+>  and FCH4), the dataset and the App description by clicking different tabs on the app)
 ## About the Dataset
 The user can directly access the dataset by clicking the App's _Data Table_ tab. The user can download the dataset from the App by clicking the _Download Data_ button under the dropdown menu or directly from this GitHub Repository, _sample_data.csv_. Using a chamber-portable analyzer technique, Zoe manually collected the data from April 2023 to September 2023. If you want to know more about how Zoe collected the data, please contact Zoe at hehanzha@student.ubc.ca.
 ## About the Repository
@@ -28,4 +31,4 @@ The user can directly access the dataset by clicking the App's _Data Table_ tab.
 
 `rsconnect folder`: contains a .dcf file presenting the specific information of the shinyapps.io online app I created.
 
-`Readme.md`: This readme file gives you information on the repository and the designation of the shiny app.
+`Readme. md`: This readme file gives you information on the repository and the designation of the shiny app.
