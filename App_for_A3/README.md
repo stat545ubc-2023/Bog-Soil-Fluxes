@@ -26,3 +26,9 @@ https://64ken0-hehan-zhang.shinyapps.io/assignment-b3-zoezhh/
 The user can directly access the dataset by clicking the App's _Data Table_ tab. The user can download the dataset from the App by clicking the _Download Data_ button under the dropdown menu or directly from this GitHub Repository, _sample_data.csv_. Using a chamber-portable analyzer technique, Zoe manually collected the data from April 2023 to September 2023. If you want to know more about how Zoe collected the data, please contact Zoe at hehanzha@student.ubc.ca.
 ## About the Repository
 `App.R`: the R code for this shiny app
+
+`sample_data.csv`: the dataset used in this app
+
+`rsconnect folder`: contains a .dcf file presenting the specific information of the shinyapps.io online app I created.
+
+`Readme.md`: This readme file gives you information on the repository and the designation of the shiny app.
