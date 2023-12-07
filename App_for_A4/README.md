@@ -32,7 +32,7 @@ Here are the four new features:
 
 > Feature 4: Allow the user to visually locate the study site by adding an image to the UI by using img(src = "imagename.png"). (You can check the locations of the study area and specifically study sites from the image in the main panel)
 >
->  Feature 5: Allow the user to search for multiple entries (different vegetation types and treatments) by integrating the selectInput() with multiple = TRUE. (By entering your select entries in the left panel, you can highlight flux patterns of selected study sites over the growing season, facilitating detailed comparisons across various ecosystem types and treatments)
+>  Feature 5 (may be seen as an updated feature for feature 1): Allow the user to search for multiple entries (different vegetation types and treatments) by integrating the selectInput() with multiple = TRUE. (By entering your select entries in the left panel, you can highlight flux patterns of selected study sites over the growing season, facilitating detailed comparisons across various ecosystem types and treatments)
 >
 >  Feature 6: Allow the user to filter the dataset within a selected date range by incorporating dateRangeInput() for date selection in the sidebar panel and update 'renderDT({})' accordingly. (You can interactively filter the dataset with the selected data range in the left panel)
 >
