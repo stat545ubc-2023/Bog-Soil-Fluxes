@@ -1,0 +1,7 @@
+"0","library(dplyr)"
+"0","setwd(""/Users/zoe/desktop/Rplots/Data"")"
+"2","Warning: The working directory was changed to /Users/zoe/Desktop/RPlots/Data inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the working directory for notebook chunks."
+"0","df <- read.csv(""growinganalysis.csv"", header = TRUE)"
+"0","df$collar_number <- substr(df$label, 3, 3)"
+"0","df <- filter(df, !grepl(""C$"", label))"
+"0","df"

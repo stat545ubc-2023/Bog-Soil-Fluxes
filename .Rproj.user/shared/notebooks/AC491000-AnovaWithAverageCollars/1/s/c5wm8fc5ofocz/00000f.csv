@@ -1,0 +1,6 @@
+"0","df$peat_temp_5cm[df$peat_temp_5cm < -1000] <- NA"
+"0","df$peat_vwc_5cm[df$peat_vwc_5cm < -1000] <- NA"
+"0","df$FCO2_EXP[df$FCO2_EXP < -10 | df$FCO2_EXP > 10] <- NA"
+"0","df$FCH4_EXP[df$FCH4_EXP < -10 | df$FCH4_EXP > 10] <- NA"
+"0","pairs(~ FCO2_EXP + peat_temp_5cm + peat_vwc_5cm, data=df, "
+"0","      main=""Scatterplot Matrix for FCO2 data"")"
