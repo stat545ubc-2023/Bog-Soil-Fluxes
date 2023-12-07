@@ -2,8 +2,6 @@
 
 ## About the Repository
 
-**For detailed documentation of each app, please check the README.md files under each app's folder**
-
 This repository contains information for two versions of Shiny Apps (an old version and an updated new version).
 
 `App_for_A3 folder`: contains all the information required for the old version of the shiny app (designed for assignment B3).
@@ -11,6 +9,8 @@ This repository contains information for two versions of Shiny Apps (an old vers
 `App_for_A4 folder`: contains all the information required for the new version of the shiny app (designed for assignment B4).
 
 `Readme.md`: This readme file gives you information on the repository and the designation of the shiny app.
+
+**(For detailed documentation of each app, please check the README.md files under each app's folder)**
 
 ## Introduction of the Apps
 Burns Bog is a bog ecosystem located in Delta, BC. It has experienced a fire in 2016. The postfire area had a high density of pine seedlings, which could lower the water table depth and increase the carbon emissions. The local government started to remove those seedlings as post-fire management since 2019 and would like to test the hypothesis that seedling removal can decrease the CO2 flux (FCO2) and increase the CH4 flux (FCH4). Burns Bog Flux Analysis apps visualize FCO2 and FCH4 in response to various treatments in bog ecosystems. Users can interact with field data collected by Zoe, ensuring transparency and promoting open science.
