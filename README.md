@@ -2,6 +2,7 @@
 
 ## About the Repository
 **For detailed documentation of each app, please check the README.md files under each app's folder**
+
 This repository contains information for two versions of Shiny Apps (an old version and an updated new version).
 
 `App_for_A3 folder`: contains all the information required for the old version of the shiny app (designed for assignment B3).
