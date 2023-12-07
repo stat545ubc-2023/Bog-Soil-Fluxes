@@ -8,7 +8,7 @@ This repository contains information for two versions of Shiny Apps (an old vers
 
 `App_for_A4 folder`: contains all the information required for the new version of the shiny app (designed for assignment B4).
 
-`Readme.md`: This readme file gives you information on the repository and the designation of the shiny app.
+`Readme.md`: This readme file gives you information on the repository and the designations of the shiny apps.
 
 **(For detailed documentation of each app, please check the README.md files under each app's folder)**
 
