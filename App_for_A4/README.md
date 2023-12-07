@@ -1,5 +1,5 @@
 # Burns Bog - 2016 Burned Zone Carbon Fluxes Analysis - New Version
-## Introduction of the Shiny App
+## Background Information of the Shiny App
 Burns Bog is a bog ecosystem located in Delta, BC. It has experienced a fire in 2016. The postfire area had a high density of pine seedlings, which could lower the water table depth and increase the carbon emissions. The local government started to remove those seedlings as post-fire management since 2019 and would like to test the hypothesis that seedling removal can decrease the CO2 flux (FCO2) and increase the CH4 flux (FCH4). The Burns Bog Flux Analysis app visualizes FCO2 and FCH4 in response to various treatments in bog ecosystems. Users can interact with field data collected by Zoe, ensuring transparency and promoting open science. 
 
 ## The Online App Link (shinyapps.io)
