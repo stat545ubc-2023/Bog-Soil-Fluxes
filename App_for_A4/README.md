@@ -5,8 +5,9 @@ Burns Bog is a bog ecosystem located in Delta, BC. It has experienced a fire in 
 ## The Online App Link (shinyapps.io)
 https://64ken0-hehan-zhang.shinyapps.io/Burns_Bog_Carbon_Fluxes_Analysis/
 
-## Overall Description of the App
-The Burns Bog Flux Analysis Shiny app is an interactive tool designed to analyze ecological treatments' impact on greenhouse gas emissions in Burns Bog's burned area. This app displays time-series charts of carbon dioxide (FCO2) and methane (FCH4) fluxes. Users can choose specific data sets through the left panel, including ecosystem types, treatments, and a date range. This selection process reveals the corresponding carbon flux changes over time. The app also offers basic statistical analysis options, such as calculating mean and variance for the selected data. Additionally, it features a data table for a detailed examination of raw data points. A key aspect of the app is its commitment to scientific transparency, as it provides full access to the dataset, fostering reproducible research and open data practices. Users have the option to download the dataset for further offline analysis. Moreover, the app includes a description tab with information about the study sites and guidance on using the app.
+## Purpose and Functioning of the App
+
+The Burns Bog Flux Analysis Shiny app is a user-friendly tool for analyzing the impacts of various ecosystem types and ecological treatments on greenhouse gas fluxes in Burns Bog's burned area. The app features intuitive time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select specific datasets, including ecosystem types, treatments, and date ranges, for detailed flux pattern analysis. It provides basic statistical analysis tools to calculate mean and variance and includes a comprehensive data table for in-depth raw data examination. The app supports scientific transparency by offering full dataset access for reproducible research and open data practices. Additionally, users can download the dataset for offline analysis. The app has a description tab offering insights into the study sites and user guidance. This Shiny app provides comprehensive time-series visualizations, customizable data selection, and essential statistical analysis features, making it a practical resource for ecological research and data exploration.
 
 ## How to Use the App
 
@@ -14,7 +15,7 @@ The Burns Bog Flux Analysis Shiny app is an interactive tool designed to analyze
 2) Choose a specific date range for analysis. 
 3) View time series plots for FCO2 and FCH4 in their respective tabs, displaying the flux pattern over the selected period. 
 4) Examine detailed data in the 'Data Table' tab, which reflects your selections. 
-5) Analyze mean and variance of flux values in the 'Statistical Analysis' tab. 
+5) Analyze the mean and variance of flux values in the 'Statistical Analysis' tab. 
 6) Download the filtered data set using the 'Download Data' button in the sidebar for further use or analysis.
    
 ## Details - Features for Old and New Version of Apps
@@ -35,7 +36,7 @@ Here are the four new features:
 >
 >  Feature 6: Allow the user to filter the dataset within a selected date range by incorporating dateRangeInput() for date selection in the sidebar panel and update 'renderDT({})' accordingly. (You can interactively filter the dataset with the selected data range in the left panel)
 >
-> Feature 7: Allow the user to perform basic statistical analyses on the dataset by adding a new tab in the main panel for statistical analysis, this includes calculating the average (mean) and variance (var) of flux values. (After selecting the desired data with specific entries and a date range, you can use the statistical analysis tab to examine their selected flux measurements' average values and variances)
+> Feature 7: Allow the user to perform basic statistical analyses on the dataset by adding a new tab in the main panel for statistical analysis; this includes calculating the average (mean) and variance (var) of flux values. (After selecting the desired data with specific entries and a date range, you can use the statistical analysis tab to examine their selected flux measurements' average values and variances)
 > 
 ## About the Dataset
 The user can directly access the dataset by clicking the App's _Data Table_ tab. The user can download the dataset from the App by clicking the _Download Data_ button under the dropdown menu or directly from this GitHub Repository, _sample_data1.csv_. Using a chamber-portable analyzer technique, Zoe manually collected the data from April 2023 to September 2023. If you want to know more about how Zoe collected the data, please contact Zoe at hehanzha@student.ubc.ca.
