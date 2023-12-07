@@ -5,12 +5,7 @@ Burns Bog is a bog ecosystem located in Delta, BC. It has experienced a fire in 
 https://64ken0-hehan-zhang.shinyapps.io/Burns_Bog_Carbon_Fluxes_Analysis/
 ## Description of the App
 **Overall Description**
-> The Burns Bog Flux Analysis Shiny app offers an interactive experience for users to analyze the effects of ecological treatments on greenhouse gas emissions. It
-> presents time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select specific vegetation types and treatment conditions
-> with the dropdown menus to check for the corresponding temporal variations of carbon fluxes. The app integrates a data table for an in-depth examination of the raw
-> data points. It ensures scientific transparency by granting access to the complete dataset, encouraging reproducible research and open data practices. Users can
-> also download the dataset directly for offline analysis, supporting further scientific inquiry. You can also find the description tab with further information on
-> vegetation types and treatments.
+> The Burns Bog Flux Analysis Shiny app offers an interactive experience for users to analyze the effects of ecological treatments on greenhouse gas emissions in a burned zone of the Burns Bog. It presents time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select the desired data with specific entries (ecosystem types and treatments) and a date range in the left panel to check for the corresponding temporal variations of carbon fluxes. The app allows users to perform basic statistical analyses (mean and variance) on selected data and integrates a data table to examine the raw data points in-depth. It ensures scientific transparency by granting access to the complete dataset, encouraging reproducible research and open data practices. Users can also download the dataset directly for offline analysis, supporting further scientific inquiry. You can also find the description tab with descriptions of study sites and documentation on how to use the app.
 
 **Main Features**
 
