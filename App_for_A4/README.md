@@ -5,10 +5,9 @@ Burns Bog is a bog ecosystem located in Delta, BC. It has experienced a fire in 
 ## The Online App Link (shinyapps.io)
 https://64ken0-hehan-zhang.shinyapps.io/Burns_Bog_Carbon_Fluxes_Analysis/
 
-## Description of the App
-**Overall Description**
-> The Burns Bog Flux Analysis Shiny app is an interactive tool designed to analyze ecological treatments' impact on greenhouse gas emissions in Burns Bog's burned area. This app displays time-series charts of carbon dioxide (FCO2) and methane (FCH4) fluxes. Users can choose specific data sets through the left panel, including ecosystem types, treatments, and a date range. This selection process reveals the corresponding carbon flux changes over time. The app also offers basic statistical analysis options, such as calculating mean and variance for the selected data. Additionally, it features a data table for a detailed examination of raw data points. A key aspect of the app is its commitment to scientific transparency, as it provides full access to the dataset, fostering reproducible research and open data practices. Users have the option to download the dataset for further offline analysis. Moreover, the app includes a description tab with information about the study sites and guidance on using the app.
-> 
+## Overall Description of the App
+The Burns Bog Flux Analysis Shiny app is an interactive tool designed to analyze ecological treatments' impact on greenhouse gas emissions in Burns Bog's burned area. This app displays time-series charts of carbon dioxide (FCO2) and methane (FCH4) fluxes. Users can choose specific data sets through the left panel, including ecosystem types, treatments, and a date range. This selection process reveals the corresponding carbon flux changes over time. The app also offers basic statistical analysis options, such as calculating mean and variance for the selected data. Additionally, it features a data table for a detailed examination of raw data points. A key aspect of the app is its commitment to scientific transparency, as it provides full access to the dataset, fostering reproducible research and open data practices. Users have the option to download the dataset for further offline analysis. Moreover, the app includes a description tab with information about the study sites and guidance on using the app.
+
 ## How to Use the App
 
 1) Select desired ecosystem types and treatments from the sidebar. 
