@@ -42,8 +42,13 @@ ui <- fluidPage(
       # Feature 2: Download button for downloading data, moved below the date range selector
       downloadButton("downloadData", "Download Data"),
       hr(),
-      # App description in the sidebar panel
-      htmlOutput("descriptionText")
+      # Description title and text in the sidebar panel
+      tags$b("Description:"),
+      htmlOutput("descriptionText"),
+      hr(),
+      # How to use title and instructions in the sidebar panel
+      tags$b("How to Use:"),
+      htmlOutput("instructionsText")
     ),
     mainPanel(
       tabsetPanel(
@@ -115,19 +120,31 @@ server <- function(input, output, session) {
     }
   })
   
-  # Description text with app usage instructions
+  # Description text
   output$descriptionText <- renderText({
     paste(
-      "Explore the impact of various treatments and ecosystem types on CO2 (FCO2) and CH4 (FCH4) fluxes in a bog ecosystem. Select ecosystem types and treatments, choose a date range, and view time series plots and statistical analyses. Download the data for further analysis.",
-      "\n\nStudy Location: Burns Bog, Delta, BC.",
-      "\nEcosystem Types: Includes Pine Sphagnum Low Shrub, Tall Shrub, and Woodland.",
-      "\nTreatments: Data from areas with and without seedlings.",
-      "\n\nHow to Use:",
-      "\n1) Select ecosystem types and treatments.",
-      "\n2) Choose a date range.",
-      "\n3) View plots in tabs.",
-      "\n4) Examine data table and statistical analysis.",
-      "\n5) Download data using the 'Download Data' button."
+      tags$ul(
+      tags$li("Explore the impacts of various treatments and ecosystem types on CO2 (FCO2) and CH4 (FCH4) fluxes within Burns Bog."),
+      tags$li("Study Location: Burns Bog, Delta, BC"),
+      tags$li("Ecosystem Types:Pine Sphagnum Low Shrub (PSLS), Pine Sphagnum Tall Shrub (PSTS), and Pine Sphagnum Woodland (PSW)"),
+      tags$li("Treatments: Study areas with seedlings (S) and seedlings Removed (R)"),
+      ),
+      sep = "\n"
+    )
+  })
+  
+  # Instructions text
+  output$instructionsText <- renderText({
+    paste(
+      tags$ul(
+        tags$li("Select ecosystem types and treatments in the sidebar."),
+        tags$li("Choose a date range."),
+        tags$li("View time series plots in the tabs for FCO2 and FCH4."),
+        tags$li("Examine the data table for detailed information."),
+        tags$li("Use the 'Statistical Analysis' tab for mean and variance calculations."),
+        tags$li("Download the filtered dataset for further use with the 'Download Data' button.")
+      ),
+      sep = "\n"
     )
   })
   
@@ -140,3 +157,4 @@ server <- function(input, output, session) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
