@@ -17,9 +17,9 @@ Burns Bog is a bog ecosystem located in Delta, BC. It has experienced a fire in 
 
 ## The Old vs. New Version of Shiny Apps
 
-`App_for_A3 folder` - Old Version (shinyapps.io: https://64ken0-hehan-zhang.shinyapps.io/assignment-b3-zoezhh/)
+`App_for_B3 folder` - Old Version (shinyapps.io: https://64ken0-hehan-zhang.shinyapps.io/assignment-b3-zoezhh/)
 > The Burns Bog Flux Analysis Shiny app enables users to explore ecological treatment effects on greenhouse gas emissions, featuring user-defined data search, downloadable datasets, and organized content in separate tabs for easy navigation and in-depth analysis.
 >
-`App_for_A4 folder` - New Version (shinyapps.io: https://64ken0-hehan-zhang.shinyapps.io/Burns_Bog_Carbon_Fluxes_Analysis/)
+`App_for_B4 folder` - New Version (shinyapps.io: https://64ken0-hehan-zhang.shinyapps.io/Burns_Bog_Carbon_Fluxes_Analysis/)
 > The updated Burns Bog Flux Analysis Shiny app now features enhanced user interactivity with multiple entry selection, visual study site location, date range filtering, and a dedicated tab for basic statistical analysis, elevating the exploration and comparison of ecological treatment effects on greenhouse gas emissions.
 > 
