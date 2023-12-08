@@ -124,9 +124,9 @@ server <- function(input, output, session) {
   output$descriptionText <- renderText({
     paste(
       tags$ul(
-      tags$li("Explore the impacts of various treatments and ecosystem types on CO2 (FCO2) and CH4 (FCH4) fluxes within Burns Bog."),
+      tags$li("Explore the impacts of various treatments and ecosystem types on CO2 (FCO2) and CH4 (FCH4) fluxes within the Burns Bog."),
       tags$li("Study Location: Burns Bog, Delta, BC"),
-      tags$li("Ecosystem Types:Pine Sphagnum Low Shrub (PSLS), Pine Sphagnum Tall Shrub (PSTS), and Pine Sphagnum Woodland (PSW)"),
+      tags$li("Ecosystem Types: Pine Sphagnum Low Shrub (PSLS), Pine Sphagnum Tall Shrub (PSTS), and Pine Sphagnum Woodland (PSW)"),
       tags$li("Treatments: Study areas with seedlings (S) and seedlings Removed (R)"),
       ),
       sep = "\n"
