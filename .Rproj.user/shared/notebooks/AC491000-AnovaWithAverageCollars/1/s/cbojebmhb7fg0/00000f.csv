@@ -1,4 +1,0 @@
-"0","# Write the sample_data dataset to a CSV file"
-"0","setwd(""/Users/zoe/desktop/Rplots/Data"")"
-"2","Warning: The working directory was changed to /Users/zoe/Desktop/RPlots/Data inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the working directory for notebook chunks."
-"0","write.csv(sample_data, ""sample_data.csv"", row.names = FALSE)"
