@@ -7,7 +7,7 @@ https://64ken0-hehan-zhang.shinyapps.io/Burns_Bog_Carbon_Fluxes_Analysis/
 
 ## Purpose and Functioning of the App
 
-The Burns Bog Flux Analysis Shiny app is a user-friendly tool for analyzing the impacts of various ecosystem types and ecological treatments on greenhouse gas fluxes in Burns Bog's burned area. The app features intuitive time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select specific datasets, including ecosystem types, treatments, and date ranges, for detailed flux pattern analysis. It provides basic statistical analysis tools to calculate mean and variance and includes a comprehensive data table for in-depth raw data examination. The app supports scientific transparency by offering full dataset access for reproducible research and open data practices. Additionally, users can download the dataset for offline analysis. The app has a description tab offering insights into the study sites and user guidance. This Shiny app provides comprehensive time-series visualizations, customizable data selection, and essential statistical analysis features, making it a practical resource for ecological research and data exploration.
+The Burns Bog Flux Analysis Shiny app is a user-friendly tool for analyzing the impacts of various ecosystem types and ecological treatments on greenhouse gas fluxes in Burns Bog's burned area. The app features intuitive time-series visualizations of carbon dioxide (FCO2) and methane (FCH4) fluxes, allowing users to select specific datasets, including ecosystem types, treatments, and date ranges, for detailed flux pattern analysis. It provides basic statistical analysis tools to calculate mean and variance and includes a comprehensive data table for in-depth raw data examination. The app supports scientific transparency by offering full dataset access for reproducible research and open data practices. Additionally, users can download the dataset for offline analysis. The app provides descriptions and user guidance on the left panel to give insights into the app. This Shiny app provides comprehensive time-series visualizations, customizable data selection, and essential statistical analysis features, making it a practical resource for ecological research and data exploration.
 
 ## How to Use the App
 
@@ -26,7 +26,7 @@ Here are the three old features:
 > 
 > Feature 2: Allow the user to download the data table as.csv with the downloadButton() function. (For open, reproducible science, you have direct access to Zoe's collected data)
 > 
-> Feature 3: Place the two plots, a table and a description page in separate tabs using tabsetPanel(). (The App page allows you to access fluxes plots easily (FCO2 and FCH4), the dataset and the App description by clicking different tabs on the app)
+> Feature 3: Place the two plots, a table and a statistical analysis page in separate tabs using tabsetPanel(). (The App page allows you to access fluxes plots easily (FCO2 and FCH4), the dataset and the statistical analysis by clicking different tabs on the app)
 
 Here are the four new features:
 
