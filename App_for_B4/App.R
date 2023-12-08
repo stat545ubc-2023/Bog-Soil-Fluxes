@@ -4,8 +4,8 @@
 # By entering your select entry, you can highlight your select study site's flux pattern over the growing season, for a detailed look and compare with other study sites.
 # Feature 2: Allow the user to download the data table as.csv, with downloadButton() function.
 # For open, reproducible science, you have direct access to Zoe's collected data.
-# Feature 3: Place the 2 plots, a data table and a description page in separate tabs by using tabsetPanel().
-# The App page allows you to access fluxes plots easily (FCO2 and FCH4), the dataset and the App description by clicking different tabs on the app.
+# Feature 3: Place the 2 plots, a data table and a statistical analysis page in separate tabs by using tabsetPanel().
+# The App page allows you to access fluxes plots easily (FCO2 and FCH4), the dataset and the statistical analysis by clicking different tabs on the app.
 # 
 # Here're the four new features (feature 5 may be seen as an updated feature for feature 1):
 # Feature 4: Allow the user to visually locate the study site by adding an image to the UI by using img(src = "imagename.png")
