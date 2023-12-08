@@ -40,17 +40,24 @@ ui <- fluidPage(
       dateRangeInput("dateRange", "Select Date Range", start = min(data$CollectionDate), end = max(data$CollectionDate)),
       hr(),
       # Feature 2: Download button for downloading data, moved below the date range selector
-      downloadButton("downloadData", "Download Data")
+      downloadButton("downloadData", "Download Data"),
+      hr(),
+      # Description title and text in the sidebar panel
+      tags$b("Description:"),
+      htmlOutput("descriptionText"),
+      hr(),
+      # How to use title and instructions in the sidebar panel
+      tags$b("How to Use:"),
+      htmlOutput("instructionsText")
     ),
     mainPanel(
       tabsetPanel(
-        # Feature 3: Separate tabs for FCO2 and FCH4 time series plots, data table, and description
+        # Feature 3: Separate tabs for FCO2 and FCH4 time series plots, data table, and statistical analysis
         tabPanel("FCO2 Time Series", plotOutput("fco2Plot")),
         tabPanel("FCH4 Time Series", plotOutput("fch4Plot")),
         tabPanel("Data Table", DTOutput("dataTable")),
         # Feature 7: Tab for statistical analysis
         tabPanel("Statistical Analysis", verbatimTextOutput("statAnalysis")),
-        tabPanel("Description", verbatimTextOutput("descriptionText"))
       ),
       # Feature 4: Image of study site map
       img(src = "map_of_study_site.png", height = "300px", width = "100%")
@@ -59,7 +66,7 @@ ui <- fluidPage(
 )
 
 # Define server logic
-server <- function(input, output) {
+server <- function(input, output, session) {
   
   # Reactive expression for filtered data based on selections
   filteredData <- reactive({
@@ -113,20 +120,31 @@ server <- function(input, output) {
     }
   })
   
-  # Description text with app usage instructions
+  # Description text
   output$descriptionText <- renderText({
     paste(
-      "This Shiny app facilitates the exploration of the impacts of various treatments and ecosystem types on CO2 (FCO2) and CH4 (FCH4) fluxes within a bog ecosystem.",
-      "\n\nStudy Location: Burns Bog, located in Delta, BC.",
-      "\nEcosystem Types: The study encompasses diverse ecosystems, including Pine Sphagnum Low Shrub (PSLS), Pine Sphagnum Tall Shrub (PSTS), and Pine Sphagnum Woodland (PSW).",
-      "\nTreatments: The data includes areas with and without seedlings, allowing for comparative analysis.",
-      "\n\nHow to Use the App:",
-      "\n1) Select desired ecosystem types and treatments from the sidebar.",
-      "\n2) Choose a specific date range for analysis.",
-      "\n3) View time series plots for FCO2 and FCH4 in their respective tabs, displaying the flux pattern over the selected period.",
-      "\n4) Examine detailed data in the 'Data Table' tab, which reflects your selections.",
-      "\n5) Analyze mean and variance of flux values in the 'Statistical Analysis' tab.",
-      "\n6) Download the filtered data set using the 'Download Data' button in the sidebar for further use or analysis."
+      tags$ul(
+      tags$li("Explore the impacts of various treatments and ecosystem types on CO2 (FCO2) and CH4 (FCH4) fluxes within Burns Bog."),
+      tags$li("Study Location: Burns Bog, Delta, BC"),
+      tags$li("Ecosystem Types:Pine Sphagnum Low Shrub (PSLS), Pine Sphagnum Tall Shrub (PSTS), and Pine Sphagnum Woodland (PSW)"),
+      tags$li("Treatments: Study areas with seedlings (S) and seedlings Removed (R)"),
+      ),
+      sep = "\n"
+    )
+  })
+  
+  # Instructions text
+  output$instructionsText <- renderText({
+    paste(
+      tags$ul(
+        tags$li("Select ecosystem types and treatments in the sidebar."),
+        tags$li("Choose a date range."),
+        tags$li("View time series plots in the tabs for FCO2 and FCH4."),
+        tags$li("Examine the data table for detailed information."),
+        tags$li("Use the 'Statistical Analysis' tab for mean and variance calculations."),
+        tags$li("Download the filtered dataset for further use with the 'Download Data' button.")
+      ),
+      sep = "\n"
     )
   })
   
@@ -139,3 +157,4 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
